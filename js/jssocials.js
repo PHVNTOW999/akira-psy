@@ -523,6 +523,13 @@
             logo: "fa fa-telegram",
             shareUrl: "https://t.me/Akira_mata",
             countUrl: ""
+        },
+
+        instagram: {
+            label: "Instagram",
+            logo: "fa fa-instagram",
+            shareUrl: "https://www.instagram.com/akiramata888/",
+            countUrl: ""
         }
 
     });
