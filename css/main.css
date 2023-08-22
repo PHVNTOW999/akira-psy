@@ -6343,6 +6343,12 @@ figure p {
   }
 }
 
+@media (min-width: 768px) {
+  .figure-extended h1 {
+    width: 60%;
+  }
+}
+
 @media (min-width: 992px) {
   .figure-extended h1 {
     left: 16.666%;
@@ -6363,8 +6369,25 @@ figure p {
 
 @media (min-width: 992px) {
   .figure-extended .atail-multitext {
-    right: 8.33333%;
+    right: 4.33333%;
     padding-right: 0;
+  }
+}
+
+@media (max-width: 670px) {
+  .figure-extended .atail-multitext {
+    bottom: -10%;
+  }
+}
+
+@media (max-width: 570px) {
+  .figure-extended h1 {
+    bottom: 70%;
+  }
+  .figure-extended .atail-multitext {
+    max-width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.36);
   }
 }
 
