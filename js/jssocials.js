@@ -516,6 +516,13 @@
             logo: "fa fa-comment",
             shareUrl: "http://line.me/R/msg/text/?{text} {url}",
             countUrl: ""
+        },
+
+        telegram: {
+            label: "Telegram",
+            logo: "fa fa-telegram",
+            shareUrl: "https://t.me/Akira_mata",
+            countUrl: ""
         }
 
     });

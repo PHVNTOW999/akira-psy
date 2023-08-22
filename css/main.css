@@ -8719,6 +8719,7 @@ p > img {
 }
 
 .preview-article-header h2 {
+  font-size: 42px;
   position: relative;
   -webkit-transition: opacity 0.4s ease, -webkit-transform 0.4s ease;
   transition: opacity 0.4s ease, -webkit-transform 0.4s ease;
@@ -8764,6 +8765,7 @@ p > img {
 .preview-article-text p {
   position: relative;
   font-size: 0.875rem;
+  font-family: 'Bitter', serif;
   -webkit-transition: opacity 0.4s ease, -webkit-transform 0.4s ease;
   transition: opacity 0.4s ease, -webkit-transform 0.4s ease;
   transition: transform 0.4s ease, opacity 0.4s ease;
@@ -9984,6 +9986,10 @@ p > img {
   table-layout: fixed;
 }
 
+.full-post-content .post-content-table h4 {
+  font-size: 25px;
+}
+
 .full-post-content .post-content-table-wrapper {
   overflow: hidden;
   overflow-y: auto;
@@ -10016,6 +10022,8 @@ p > img {
 
 .full-post-content .post-content-table-wrapper p {
   font-size: 1rem;
+  font-family: 'Bitter', serif;
+  /*font-size: 12px;*/
 }
 
 .full-post-content .post-content-header {
