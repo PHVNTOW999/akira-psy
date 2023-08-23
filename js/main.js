@@ -3542,7 +3542,7 @@
 	        // If `findUser` rejected, `reason` will be '`findUser` rejected and we're unhappy'.
 	      });
 	      ```
-	      If the downstream promise does not specify a rejection handler, rejection reasons will be propagated further downstream.
+	      If the downstream promise does not specify a rejection handler, rejection projects will be propagated further downstream.
 
 	      ```js
 	      findUser().then(function (user) {
