@@ -8759,6 +8759,18 @@ p > img {
   }
 }
 
+@media (max-width: 459px) {
+  .preview-article-header h2 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 320px) {
+  .preview-article-header h2 {
+    font-size: 22px;
+  }
+}
+
 .projects-item-animate .preview-article-header h2 {
   -webkit-transition: opacity 0.4s ease 0.2s, -webkit-transform 0.4s ease 0.2s;
   transition: opacity 0.4s ease 0.2s, -webkit-transform 0.4s ease 0.2s;
@@ -9132,6 +9144,22 @@ p > img {
   -webkit-transform: translateX(-100%);
           transform: translateX(-100%);
   opacity: 0;
+}
+
+@media (max-width: 600px) {
+  .all-atail-projects-article > article h2 {
+    font-size: 29px;
+  }
+}
+
+@media (max-width: 375px) {
+  .all-atail-projects-article > article h2 {
+    font-size: 18px;
+  }
+}
+
+.all-atail-projects-article h2 {
+  font-size: 50px;
 }
 
 .all-atail-projects-img {
@@ -10096,6 +10124,12 @@ p > img {
   }
   .atail-intro .open-full-post {
     margin-left: 120px;
+  }
+}
+
+@media (max-width: 375px) {
+  .open-full-post {
+    margin-left: 22px;
   }
 }
 
