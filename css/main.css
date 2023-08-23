@@ -6232,6 +6232,10 @@ span[data-action="show-nav"] > span:after, span[data-action="close-nav"] > span:
   padding-right: 30px;
 }
 
+.main-scroll p {
+  font-family: 'Bitter', serif;
+}
+
 @media (min-width: 992px) {
   .main-scroll .atail-features-wrapper {
     padding-left: 0;
@@ -9144,6 +9148,12 @@ p > img {
   -webkit-transform: translateX(-100%);
           transform: translateX(-100%);
   opacity: 0;
+}
+
+@media (max-width: 1200px) {
+  .all-atail-projects-article > article h2 {
+    font-size: 35px;
+  }
 }
 
 @media (max-width: 600px) {
